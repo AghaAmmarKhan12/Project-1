@@ -21,11 +21,22 @@
 	width: auto;
 	height: auto;
 	padding: 60px 40px;
+	text-align: left;
 }
 
 .Side-bar a{
 	font-size: 30px;
 	text-decoration: none;
 	color: whitesmoke;
-	padding: 30px 10px;
+	padding: 6px 4px;
+	margin: 30px 10px;
+
+}
+.Side-bar a:hover{
+	background-color: black;
+	color: white;
+	transform: scale3d(1.1, 1.1, 1.2);
+	border-radius: 8px;
+	transition: ease 0.4s;
+	font: fantasy;
 }
