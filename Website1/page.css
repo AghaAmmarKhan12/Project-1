@@ -6,8 +6,26 @@
 
 .header{
 	text-align: center;
-	padding: 20px;
-	background-color: yellow;
+	padding: 12px 18px;
+	background-color: black;
 }
 
-.
+.header h1{
+	color: white;
+}
+
+.Side-bar{
+	float: left;
+	background-color: grey;
+	display:inline-grid;
+	width: auto;
+	height: auto;
+	padding: 60px 40px;
+}
+
+.Side-bar a{
+	font-size: 30px;
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 30px 10px;
+}
